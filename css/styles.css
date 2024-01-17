@@ -39,7 +39,7 @@ header{
 
 @media (max-width: 991px){
     .navbar ul{
-        display: block;
+        display: none;
         position: fixed;
         background-color: #ff0000;
         top: 80px;
@@ -53,11 +53,11 @@ header{
 }
 
 #display-menu{
-    opacity: 0;
+    display: none;
   }
 
 #display-menu:checked + .lista{
-    display: none;
+    display: block;
 }
 
 li:hover{
@@ -172,4 +172,10 @@ section{
     width: 100%;
     height: auto;
     border-radius: 8px;
+  }
+
+  @media (max-width: 991px) {
+    .galeria {
+      grid-template-columns: 1fr;
+    }
   }
