@@ -137,7 +137,15 @@ section{
     background-color: #f00202;
 }
 
-/**/
+/*INDEX*/
+
+.banner{
+    width: 100%;
+    height: 180px;
+    background-color: red;
+    margin-top: 100px;
+    opacity: 70%;
+}
 
 .productos-destacados{
     display: flex;
