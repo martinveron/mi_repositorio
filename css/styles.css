@@ -179,3 +179,9 @@ section{
       grid-template-columns: 1fr;
     }
   }
+
+  /*NOSOTROS*/
+
+  .logonos{
+    font-size: 5rem;
+  }
