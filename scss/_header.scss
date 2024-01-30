@@ -1,0 +1,68 @@
+/*NAVBAR*/
+
+header {
+    background-color: $fondo-nav;
+
+    .navbar {
+        display: flex;
+        align-items: center;
+
+        ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+
+            li {
+                display: flex;
+                justify-items: center;
+
+                a {
+                    display: flex;
+                    padding: 10px 30px;
+
+                    &:hover {
+                        background-color: $hover-nav;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.mobile-nav-toggle {
+    color: #111;
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+    line-height: 0;
+    transition: 0.5s;
+}
+
+@media (max-width: 991px) {
+    .mobile-nav-toggle {
+        display: block;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar .lista {
+        display: none;
+        position: fixed;
+        background-color: #ff0000;
+        top: 80px;
+        left: 0%;
+        width: 100%;
+    }
+}
+
+#icono-navbar {
+    width: 4rem;
+}
+
+#display-menu {
+    display: none;
+
+    &:checked+ul {
+        display: block;
+    }
+}
