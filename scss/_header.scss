@@ -17,14 +17,15 @@ header {
 
             li {
                 display: flex;
+                }
+            }
                 a {
                     display: flex;
                     padding: 10px 30px;
-
+                    color: $colorterciario;
                     &:hover {
                         background-color: $colorsecundario;
-                    }
-                }
+                        color: $colorterciario;
             }
         }
     }
@@ -49,7 +50,7 @@ header {
     .navbar .lista {
         display: none;
         position: fixed;
-        background-color: #ff0000;
+        background-color: $colorprimario;
         top: 80px;
         left: 0%;
         width: 100%;

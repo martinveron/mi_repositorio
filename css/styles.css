@@ -91,12 +91,14 @@ header .navbar ul {
 header .navbar ul li {
   display: flex;
 }
-header .navbar ul li a {
+header .navbar a {
   display: flex;
   padding: 10px 30px;
+  color: #F2EFE9;
 }
-header .navbar ul li a:hover {
+header .navbar a:hover {
   background-color: #A61B1B;
+  color: #F2EFE9;
 }
 
 .mobile-nav-toggle {
@@ -117,7 +119,7 @@ header .navbar ul li a:hover {
   .navbar .lista {
     display: none;
     position: fixed;
-    background-color: #ff0000;
+    background-color: #731018;
     top: 80px;
     left: 0%;
     width: 100%;
@@ -161,8 +163,11 @@ header .navbar ul li a:hover {
 }
 
 #sumbitform {
-  background-color: #bd0707;
+  background-color: #731018;
   color: #fff;
+}
+#sumbitform:hover {
+  background-color: #A61B1B;
 }
 
 /*NOSOTROS*/

@@ -5,6 +5,9 @@
 }
 
 #sumbitform {
-    background-color: #bd0707;
+    background-color: $colorprimario;
     color: #fff;
+    &:hover{
+        background-color: $colorsecundario;
+    }
 }
