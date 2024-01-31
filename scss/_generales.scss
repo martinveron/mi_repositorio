@@ -48,7 +48,7 @@ section {
         .precio {
             font-size: 1.5rem;
             font-weight: bold;
-            color: #bd0707;
+            color: $colorprimario;
             margin-top: 10px;
         }
 
@@ -57,7 +57,7 @@ section {
             width: 100%;
             padding: 10px;
             text-align: center;
-            background-color: #be2308;
+            background-color: $colorprimario;
             color: #fff;
             text-decoration: none;
             border: none;
@@ -65,7 +65,7 @@ section {
             cursor: pointer;
 
             &:hover {
-                background-color: #f00202;
+                background-color: $colorsecundario;
             }
         }
     }

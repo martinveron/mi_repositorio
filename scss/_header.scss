@@ -1,27 +1,28 @@
 /*NAVBAR*/
 
 header {
-    background-color: $fondo-nav;
+    background-color: $colorprimario;
 
     .navbar {
         display: flex;
         align-items: center;
+        justify-content: center;
 
         ul {
             display: flex;
             align-items: center;
             list-style: none;
+            margin-bottom: 0;
+            margin-right: 120px;
 
             li {
                 display: flex;
-                justify-items: center;
-
                 a {
                     display: flex;
                     padding: 10px 30px;
 
                     &:hover {
-                        background-color: $hover-nav;
+                        background-color: $colorsecundario;
                     }
                 }
             }

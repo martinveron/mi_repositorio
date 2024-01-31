@@ -43,7 +43,7 @@ section {
 .card .card-contenido .precio {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #bd0707;
+  color: #731018;
   margin-top: 10px;
 }
 .card .card-contenido .comprar {
@@ -51,7 +51,7 @@ section {
   width: 100%;
   padding: 10px;
   text-align: center;
-  background-color: #be2308;
+  background-color: #731018;
   color: #fff;
   text-decoration: none;
   border: none;
@@ -59,7 +59,7 @@ section {
   cursor: pointer;
 }
 .card .card-contenido .comprar:hover {
-  background-color: #f00202;
+  background-color: #A61B1B;
 }
 
 /*FORMULARIOS*/
@@ -74,27 +74,29 @@ section {
 
 /*NAVBAR*/
 header {
-  background-color: rgb(173, 24, 24);
+  background-color: #731018;
 }
 header .navbar {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 header .navbar ul {
   display: flex;
   align-items: center;
   list-style: none;
+  margin-bottom: 0;
+  margin-right: 120px;
 }
 header .navbar ul li {
   display: flex;
-  justify-items: center;
 }
 header .navbar ul li a {
   display: flex;
   padding: 10px 30px;
 }
 header .navbar ul li a:hover {
-  background-color: rgb(236, 2, 2);
+  background-color: #A61B1B;
 }
 
 .mobile-nav-toggle {
