@@ -1,4 +1,7 @@
-@import 'variables';
+@import 'utilities/variables';
+@import 'utilities/mapas';
+@import 'utilities/extend';
+@import 'utilities/mixin';
 @import 'generales';
 @import 'header';
 @import 'index';

@@ -5,9 +5,9 @@
 }
 
 #sumbitform {
-    background-color: $colorprimario;
+    background-color: map-get($colores, rojo-primario );
     color: $colorterciario;
     &:hover{
-        background-color: $colorsecundario;
+        background-color: map-get($colores, rojo-secundario);
     }
 }
