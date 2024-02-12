@@ -4,15 +4,19 @@ main{
     .banner {
         margin-top: 100px;
             @extend .navbar;
-            img{
-                max-width: 100%;
-                height: a;
-            }
     }
-    
-
 }
 
+@media (max-width: 991px) {
+    .imgpc {
+        display: none;
+    }
+}
+@media (min-width: 991px) {
+    .imgmobile {
+        display: none;
+    }
+}
 .productos-destacados {
     display: flex;
     text-align: center;
