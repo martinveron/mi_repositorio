@@ -3,6 +3,10 @@
 header {
     background-color: $colorprimario;
 
+    .logo{
+        color: $colorterciario
+    }
+
     .navbar {
         display: flex;
         align-items: center;

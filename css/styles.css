@@ -73,6 +73,9 @@ section {
 header {
   background-color: #731018;
 }
+header .logo {
+  color: #F2EFE9;
+}
 header .navbar, header main .banner, main header .banner {
   display: flex;
   align-items: center;
@@ -154,6 +157,16 @@ main .banner img {
   display: flex;
 }
 
+footer {
+  background-color: #731018;
+}
+footer p {
+  color: #F2EFE9;
+}
+footer a {
+  color: #F2EFE9;
+}
+
 /*FORMULARIOS*/
 .form {
   margin-top: 300px;
@@ -165,6 +178,10 @@ main .banner img {
 }
 #sumbitform:hover {
   background-color: #A61B1B;
+}
+
+.imgform {
+  max-width: 100px;
 }
 
 /*NOSOTROS*/
