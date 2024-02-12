@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .navbar, main .banner {
   display: flex;
   align-items: center;
@@ -67,6 +68,10 @@ section {
 }
 .card .card-contenido .comprar:hover {
   background-color: #A61B1B;
+}
+
+.mt-6 {
+  margin-top: 5rem;
 }
 
 /*NAVBAR*/
@@ -192,9 +197,19 @@ footer a {
 
 /*NOSOTROS*/
 .logonos {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
+@media (max-width: 991px) {
+  .iframegrande {
+    display: none;
+  }
+}
+@media (min-width: 991px) {
+  .iframepequeño {
+    display: none;
+  }
+}
 /*GALERIA*/
 .galeria {
   display: grid;

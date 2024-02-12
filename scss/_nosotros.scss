@@ -1,5 +1,16 @@
 /*NOSOTROS*/
 
 .logonos {
-    font-size: 5rem;
+    font-size: 4rem;
+}
+
+@media (max-width: 991px) {
+    .iframegrande {
+        display: none;
+    }
+}
+@media (min-width: 991px) {
+    .iframepequeño {
+        display: none;
+    }
 }
