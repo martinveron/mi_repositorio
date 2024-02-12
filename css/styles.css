@@ -198,6 +198,7 @@ footer a {
 /*NOSOTROS*/
 .logonos {
   font-size: 4rem;
+  color: #262322;
 }
 
 @media (max-width: 991px) {
